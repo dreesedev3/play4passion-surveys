@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from './components/pages/LandingPage';
-import SurveyPage from './components/pages/SurveyPage';
-import ThankYouPage from './components/pages/ThankYouPage';
-import AdminLogin from './components/pages/AdminLogin';
-import AdminDashboard from './components/pages/AdminDashboard';
-import AdminSurveyCreate from './components/pages/AdminSurveyCreate';
-import AdminSurveyDetail from './components/pages/AdminSurveyDetail';
+import LandingPage from './components/pages/LandingPage.jsx';
+import SurveyPage from './components/pages/SurveyPage.jsx';
+import ThankYouPage from './components/pages/ThankYouPage.jsx';
+import AdminLogin from './components/pages/AdminLogin.jsx';
+import AdminDashboard from './components/pages/AdminDashboard.jsx';
+import AdminSurveyCreate from './components/pages/AdminSurveyCreate.jsx';
+import AdminSurveyDetail from './components/pages/AdminSurveyDetail.jsx';
 
 function App() {
   return (
